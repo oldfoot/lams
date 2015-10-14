@@ -1,0 +1,4 @@
+INSERT INTO `core_help_more_info` values ('helpdesk','<h3>This is a basic Helpdesk system with the following functionality:</h3>\r\n<li>Creation of tickets including technical details,solutions,attachments,tagging etc\r\n<li>Automatic ticket assignment based on category\r\n<li>Reporting tools\r\n'),
+('hrms','Welcome to the HRMS control panel. Please use the right hand menu for navigation.'),
+('leave','<h3>Leave Management System</h3>\r\n\r\nWelcome to the Leave Management System. The objectives for this module are:\r\n<ul>\r\n<li>Allow employees of the organization to apply for their leave online, reducing the need for paperwork\r\n<li>Allow approvals by superiours and global approvers to take place anywhere\r\n<li>Provide real time report monitoring for both employees and managers\r\n</ul>\r\n\r\n'),
+('settings','Welcome to the user control panel. Here you can change your account details. Please use the right hand menu.')

@@ -1,0 +1,1 @@
+INSERT INTO `core_space_status_master` values ('1','Active','y','y','n')

@@ -1,0 +1,1 @@
+insert  into `services`(`service_id`,`service_name`,`service_description`) values (2,'Video','Video'),(3,'Graphic','Graphics'),(7,'RSS','RSS'),(8,'RSSR','RSS Random'),(12,'Twitter','Twitter'),(14,'Announcements','All Announcements'),(18,'SMS','SMS'),(19,'AnnouncementR','A single random announcement'),(20,'ATOMR','Single Random ATOM Feed'),(21,'Adverts','Advertising System');

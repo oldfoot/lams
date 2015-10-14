@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<reports>
+  <report>
+    <name>DepartmentLeave</name>
+    <version>1.0</version>
+  </report>
+  <report>
+    <name>GeneralReport</name>
+    <version>1.0</version>
+  </report>
+  <report>
+    <name>LeaveCategory</name>
+    <version>1.0</version>
+  </report>
+  <report>
+    <name>MonthlyLeaveTransactions</name>
+    <version>1.0</version>
+  </report>
+  <report>
+    <name>YearPlanner</name>
+    <version>1.0</version>
+  </report>
+</reports>

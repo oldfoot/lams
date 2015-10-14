@@ -1,0 +1,16 @@
+SELECT am.account_id,am.account_name,am.industry_id,am.user_id_assigned,am.phone_number,am.fax_number,am.email_address,am.account_type_id,
+am.billing_address,am.billing_city,am.billing_state,am.billing_postal_code,am.billing_country_id,
+am.shipping_address,am.shipping_city,am.shipping_state,am.shipping_postal_code,am.shipping_country_id,
+am.other_info,am.workspace_id,am.teamspace_id,
+im.industry_name,
+atm.account_type_name,
+um.full_name,
+cm.country_name as billing_country_name,
+cm1.country_name as shipping_country_name
+FROM mvh.crm_account_master am, mvh.crm_industry_master im, mvh.crm_account_type_master atm, mvh.user_master um,
+mvh.hrms_country_master cm, mvh.hrms_country_master cm1
+WHERE am.industry_id = im.industry_id
+AND am.account_type_id = atm.account_type_id
+AND am.user_id_assigned = um.user_id
+AND am.billing_country_id = cm.country_id
+AND am.shipping_country_id = cm1.country_id

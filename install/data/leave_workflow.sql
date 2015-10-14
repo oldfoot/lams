@@ -1,0 +1,11 @@
+INSERT INTO `leave_workflow` values ('1','Application Submission','1','0'),
+('1','End','4','0'),
+('1','Global Approval','3','0'),
+('1','HOD Approval','2','0'),
+('17','Application Submission','1',''),
+('17','Email Global Approver','6',''),
+('17','Email HOD','5',''),
+('17','Email User','4',''),
+('17','End','7',''),
+('17','Global Approval','3',''),
+('17','HOD Approval','2','')
